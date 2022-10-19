@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* top-Message_block */
+.top-Message_block {
+  background-image: url(../images/bg_message_header.png);
+  background-size: cover;
+  background-position: center center;
+}
+.top-Message_block .top-Message_container {
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-Message_block .top-Message_container .top-Message_text_box {
+  color: #fff;
+}
+.top-Message_block .top-Message_container .top-Message_text_box h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+@media (max-width: 760px) {
+  .top-Message_block .top-Message_container .top-Message_text_box h1 {
+    font-size: 28px;
+    font-weight: normal;
+  }
+}
+
+/* top-Message_block */
+/* greet-Block */
+.greet-Block {
+  margin: 8%;
+}
+.greet-Block .greet-Container h2 {
+  letter-spacing: 8px;
+  font-weight: bold;
+}
+@media (max-width: 760px) {
+  .greet-Block .greet-Container h2 {
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 0;
+  }
+}
+.greet-Block .greet-Container h2::after {
+  display: block;
+  content: "大事なお仕事探しを応援させてください";
+  font-size: 18px;
+  font-weight: normal;
+  color: #151515;
+  padding: 3% 0;
+  letter-spacing: 2px;
+}
+@media (max-width: 760px) {
+  .greet-Block .greet-Container h2::after {
+    font-size: 15px;
+    padding: 10% 0;
+  }
+}
+.greet-Block .greet-Container .greet-Flex_area {
+  /*display: flex;
+  justify-content: space-around;*/
+  max-width: 850px;
+  margin: 0 auto;
+}
+.greet-Block .greet-Container .greet-Flex_area .greet-Icon_area {
+  float: left;
+  margin-right: 2%;
+}
+.greet-Block .greet-Container .greet-Flex_area .greet-Text_area {
+  text-align: justify;
+  line-height: 180%;
+  letter-spacing: 0.05rem;
+}
+@media (max-width: 760px) {
+  .greet-Block .greet-Container .greet-Flex_area .greet-Text_area {
+    line-height: 160%;
+  }
+}
+.greet-Block .greet-Container .greet-Img_area {
+  margin: 0 auto;
+  margin-top: 4%;
+  max-width: 1110px;
+}
+@media (max-width: 760px) {
+  .greet-Block .greet-Container .greet-Img_area {
+    margin-top: 20%;
+  }
+}
+.greet-Block .greet-Container .greet-Img_area img {
+  width: 100%;
+}
+@media (max-width: 760px) {
+  .greet-Block .greet-Container .greet-Img_area img {
+    width: 335px;
+    height: 260px;
+  }
+}/*# sourceMappingURL=message.css.map */
